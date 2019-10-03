@@ -28,11 +28,11 @@ public static void main(String arg[])throws IOException
 	System.out.println("Enter the second number");
 	String s1=br.readLine();
 	b=Integer.parseInt(s1);
-	int choice;
+	int c;
 	System.out.println("Enter 1 to ADD\nEnter 2 to SUB\nEnter 3 to MULTIPLY\nEnter your choice:");
 	String s2=br.readLine();
-	choice=Integer.parseInt(s2);
-	switch(choice)
+	c=Integer.parseInt(s2);
+	switch(c)
 	{
 		case 1:
 			System.out.println(cal.sum(a,b));
